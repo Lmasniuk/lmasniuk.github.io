@@ -7,3 +7,10 @@ body{
     padding-top: 35vh;
     text-align: center;
 }
+
+.connect{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+}
