@@ -14,3 +14,7 @@ body{
     justify-content: center;
     gap:10px;
 }
+
+.connect a{
+    text-decoration: none;
+}
