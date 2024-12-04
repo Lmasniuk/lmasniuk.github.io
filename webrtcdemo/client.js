@@ -1,5 +1,5 @@
-// const signalingServerUrl = "wss://webrtc-demo-rd3t.onrender.com";
-const signalingServerUrl = "ws://localhost:8080";
+const signalingServerUrl = "wss://webrtc-demo-rd3t.onrender.com";
+// const signalingServerUrl = "ws://localhost:8080";
 
 const clientId = Math.random().toString(36).substring(2, 9); // Generate a random ID
 let remoteClientId = 0;
