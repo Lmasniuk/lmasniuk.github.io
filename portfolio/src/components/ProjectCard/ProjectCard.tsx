@@ -11,7 +11,6 @@ export default function ProjectCard({ url, projectName, projectPreview }: { url:
 
       </a>
       <div className="project-card__details">
-
         <h3>{projectName}</h3>
       </div>
     </div >
