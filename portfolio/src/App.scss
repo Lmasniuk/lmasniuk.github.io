@@ -5,8 +5,6 @@
 .hero {
   padding: 2rem;
   background-color: hsl(126, 44%, 83%);
-
-
 }
 
 .projects {
@@ -19,6 +17,12 @@
 .connect {
   padding: 2rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: hsl(126, 40%, 85%);
+
+  &__links {
+    display: flex;
+  }
 }
