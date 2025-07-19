@@ -1,0 +1,9 @@
+.projects {
+  background-color: hsl(0, 0%, 98%);
+  width: 100%;
+  padding: 2rem;
+
+  @media screen and (min-width: 768px) {
+    padding: 2rem 5rem;
+  }
+}

@@ -1,0 +1,21 @@
+.hero {
+  background-color: var(--background-color);
+  height: 30vh;
+  padding: 2rem;
+
+  @media screen and (min-width: 768px) {
+    padding: 2rem 5rem;
+    height: 100vh;
+  }
+
+  &__title {
+    margin-top: 2rem;
+
+    margin-bottom: 0.5rem;
+  }
+
+  &__subtitle {
+    max-width: 48rem;
+    color: hsl(126, 40%, 50%);
+  }
+}

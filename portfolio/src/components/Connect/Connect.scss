@@ -1,0 +1,17 @@
+.connect {
+  padding: 2rem;
+  background-color: var(--background-color);
+
+  @media screen and (min-width: 768px) {
+    padding: 2rem 5rem;
+  }
+
+  &__links {
+    display: flex;
+  }
+
+  &__icon {
+    width: 48px;
+    height: 48px;
+  }
+}

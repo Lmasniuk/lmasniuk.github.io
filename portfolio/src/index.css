@@ -77,13 +77,26 @@ h6 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
+
+  @media screen and (min-width: 768px) {
+    font-size: 6rem;
+  }
 }
 
 h2 {
-  font-size: 1.65rem;
+  font-size: 1.75rem;
+
+  @media screen and (min-width: 768px) {
+    font-size: 4rem;
+  }
 }
 
 h3 {
   font-size: 1.4rem;
+}
+
+/* Colors */
+* {
+  --background-color: hsl(126, 40%, 85%);
 }
