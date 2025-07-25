@@ -9,6 +9,7 @@
 * {
   margin: 0;
   font-family: "Space Grotesk", sans-serif;
+  list-style-type: none;
 }
 
 /* 3. Enable keyword animations */

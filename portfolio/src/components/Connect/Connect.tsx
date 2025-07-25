@@ -11,7 +11,9 @@ export default function Connect() {
       <div className="connect__links">
         <img className="connect__icon" src={githubLogo} />
         <img className="connect__icon" src={linkedinLogo} />
-        <img className="connect__icon" src={emailIcon} />
+        <a href="mailto:logan.masniuk@gmail.com">
+          <img className="connect__icon" src={emailIcon} />
+        </a>
       </div>
     </section>
   );
