@@ -25,6 +25,12 @@
     &-icon {
       height: 48px;
       width: 48px;
+
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.2);
+      }
     }
   }
 }
