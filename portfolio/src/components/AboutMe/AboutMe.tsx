@@ -1,6 +1,7 @@
 import "./AboutMe.scss";
 
 import react from "../../assets/technology-icons/react.svg";
+import axios from "../../assets/technology-icons/axios.svg";
 import sass from "../../assets/technology-icons/sass.svg";
 import typescript from "../../assets/technology-icons/typescript.svg";
 import githubactions from "../../assets/technology-icons/githubactions.svg";
@@ -132,6 +133,13 @@ export default function AboutMe() {
             className="about-me__technologies-icon"
             src={express}
             alt="Express"
+          />
+        </li>
+        <li>
+          <img
+            className="about-me__technologies-icon"
+            src={axios}
+            alt="Axios"
           />
         </li>
         <li>
