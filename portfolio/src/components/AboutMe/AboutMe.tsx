@@ -41,11 +41,34 @@ export default function AboutMe() {
     <section className="about-me">
       <h2>About Me</h2>
       <p>
-        Hi, I'm Logan, a full stack software developer with 10+ years of
-        experience building scalable web applications using JavaScript,
-        TypeScript, Java, and Python. I'm a Proven leader and educator with
-        passion for clean code, mentoring and delivering high impact solutions
-        across agile teams.
+        I'm a full stack web developer with 10+ years of experience in the tech
+        industry. I've worked at several companies covering FinTech, a writing &
+        editing platform, employee gifting SaaS, and most recently was teaching
+        software development bootcamps!
+      </p>
+      <br />
+      <p>
+        My favorite and most comfortable programming language is JavaScript, as
+        I love how capable and crazy it can be. However, I also can use
+        TypeScript, Python, Java, PHP, C# and a handful of other languages that
+        I've dabbled with throughout my career.
+      </p>
+      <br />
+      <p>
+        At the end of the day, software is built by humans, and I believe is a
+        reflection of the people and teams that build it. For this reason, I
+        love to bring a passionate energy and open communication style to any
+        team I'm involved with. I'm not afraid to ask questions, get things
+        wrong, and learn fast. I like to say "You can't die from shame!".
+      </p>
+      <br />
+      <p>
+        Aside from software, I have an extremely active personal life where I
+        spend as much time as I can outside whether it be biking(mountain and
+        gravel), freediving, or snowboarding, to name a few. Living in
+        Vancouver, BC allows me to follow my passions and live life to the
+        fullest, where I can get inspiration and energy that trickles into my
+        professional life.
       </p>
       <h3 className="about-me__technologies">Technologies</h3>
       <h4 className="about-me__technologies-subset">Languages</h4>
