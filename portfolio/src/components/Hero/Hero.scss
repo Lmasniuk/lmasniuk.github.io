@@ -7,6 +7,14 @@
     padding: 2rem 5rem;
     height: 100vh;
   }
+  &__content {
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    gap: 1rem;
+  }
 
   &__title {
     margin-top: 2rem;
@@ -17,5 +25,10 @@
   &__subtitle {
     max-width: 48rem;
     color: hsl(126, 40%, 50%);
+  }
+
+  &__image {
+    height: 80%;
+    border-radius: 1rem;
   }
 }
